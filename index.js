@@ -14,6 +14,13 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+
+
+// route for lomash
+app.get('/rishi', (req, res) => {
+  res.render('lomash');
+});
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
