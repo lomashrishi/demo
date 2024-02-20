@@ -21,6 +21,14 @@ app.get('/rishi', (req, res) => {
   res.render('lomash');
 });
 
+// route for homesh
+app.get('/homesh', (req, res) => {
+  res.render('homesh');
+});
+
+
+
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
