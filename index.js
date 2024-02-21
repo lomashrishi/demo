@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-// route for ARPIT
+// route for Arpit
 app.get('/arpit', (req, res) => {
   res.render('arpit');
 });
