@@ -14,7 +14,10 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-
+// route for ARPIT
+app.get('/arpit', (req, res) => {
+  res.render('arpit');
+});
 
 // route for lomash
 app.get('/rishi', (req, res) => {
